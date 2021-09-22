@@ -1,0 +1,55 @@
+.Loginform
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-start;
+   background-color: cornsilk;
+    padding: 10px;
+    width: fit-content;
+    width: 370px;
+    height: 320px;
+}
+.mycolor
+{
+    color:blue;
+}
+.downpadding
+{
+    padding-bottom: 20px;
+}
+.mybutton
+{
+    width: 80px;
+}
+
+.Formheader{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom: 10px;
+}
+.headerButton
+{
+    width: 170px;
+}
+.samerow
+{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+}
+.myinput
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.mylabel
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
