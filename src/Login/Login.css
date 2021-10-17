@@ -53,3 +53,98 @@
     justify-content: center;
     align-items: center;
 }
+.SingleCard
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.headerHome
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+    position: sticky;
+    top:0;
+    height: 100px;
+}
+.userProfile
+{
+    width:50px;
+    height:60px;
+    border-radius: 50%;
+}
+.spaceprovide
+{
+    margin:10px;
+    
+}
+.cardSubject
+{
+    
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 50%);
+    
+    margin: 10px;
+}
+.setColor
+{
+    background-color: cadetblue;
+}
+.setColor:hover
+{
+  margin: 0px 10px 10px 10px;
+  background-color: rgb(146, 180, 180);
+}
+.cardList
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 10% 0% 10%;
+
+}
+.Footer
+{
+    margin: 100px;
+    
+  
+}
+.mytickMark{
+   
+    width: min-content;
+    height: min-content;
+   
+}
+.width20
+{
+    width: 20px;
+}
+.width400
+{
+    width: 400px;
+}
+.width60
+{
+    width: 60px;
+}
+.shiftleft
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left ;
+}

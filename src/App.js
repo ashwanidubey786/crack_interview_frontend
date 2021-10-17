@@ -1,13 +1,21 @@
 import './App.css';
+
 import './Login/Login.css';
 import Loginform from './Login/Loginform';
-//import Login from './Login';
+
+import QuestionCard from './Questioncard/Questioncard';
+
 function App() {
+  
   return (
     <div className="App">
      
-     <Loginform />         
-      
+     <Loginform />  
+   
+    
+     
+     
+
     </div>
   );
 }
